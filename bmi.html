@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+</head>
+<body>
+    <nav class="sidenav close">
+        <header>
+            <div class="image-text">
+                <div class="image">
+                    <img src="Logo.jpeg" alt="">
+                </div>
+
+                <div class="text header-text">
+                    <span class="name">Minorities</span>
+                </div>
+            </div>
+
+            <i class='bx bxs-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar" style="margin-top: 10px;">
+            <div class="menu">
+                <ul class="menu-link">
+                    <li class="nav-link">
+                        <a href="home.html" >
+                            <i class='bx bxs-home icon'></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="routines.html">
+                            <i class='bx bxs-calendar icon'></i>
+                            <span class="text nav-text">Routines</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-dumbbell icon'></i>
+                            <span class="text nav-text">Workouts</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="bmi.html">
+                            <i class='bx bxs-calculator icon' ></i>
+                            <span class="text nav-text">BMI</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="aboutus.html">
+                            <i class='bx bx-code-block icon' ></i>
+                            <span class="text nav-text">Code</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-content">
+                <li class="mode"> 
+                <div class="moon">
+                    <i class='bx bxs-moon icon moon'></i>
+                </div>
+                <span class="mode-text text">Dark Mode</span>
+                <div class="toggleswitch">
+                    <span class="switch"></span>
+                </div>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <section class="page">
+        <fieldset class="bim">
+            <p class="bimtext">BMI</p>
+            <p class = "input">Height(CM):
+                <input type="number" name="" id="height">
+                <!-- <input style="left: 50% ; position: absolute; transform: translate(40%, -50%);" type="number" name="" id=""> -->
+            </p>
+            <p class = "input" style="position: absolute; top:40%">Weight(KG):
+                <input type="number" name="" id="height">
+                <!-- <input style="left: 50% ; position: absolute; transform: translate(40%, -50%);" type="number" name="" id=""> -->
+            </p>
+            <img class="img-bmi" src="bmi-chart.gif" alt="">
+        </fieldset>
+    </section>
+
+<script src="script.js"></script>
+<script src="__main__.js"></script>
+</body>
+</html>
