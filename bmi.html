@@ -43,6 +43,7 @@
                             <i class='bx bx-dumbbell icon'></i>
                             <span class="text nav-text">Workouts</span>
                         </a>
+                        <p></p>
                     </li>
                     <li class="nav-link">
                         <a href="bmi.html">
@@ -50,7 +51,7 @@
                             <span class="text nav-text">BMI</span>
                         </a>
                     </li>
-                    <li class="nav-link">
+                    <li class="nav-link" >
                         <a href="aboutus.html">
                             <i class='bx bx-code-block icon' ></i>
                             <span class="text nav-text">Code</span>
@@ -65,7 +66,7 @@
                 </div>
                 <span class="mode-text text">Dark Mode</span>
                 <div class="toggleswitch">
-                    <span class="switch"></span>
+                    <span class="switch"></span>    
                 </div>
                 </li>
             </div>
@@ -74,19 +75,18 @@
     <section class="page">
         <fieldset class="bim">
             <p class="bimtext">BMI</p>
-            <p class = "input">Height(CM):
-                <input type="number" name="" id="height">
-                <!-- <input style="left: 50% ; position: absolute; transform: translate(40%, -50%);" type="number" name="" id=""> -->
+            <p class = "input">Height(CM):<br/>
+                <input type="number" form="bmi" id="height" required>
             </p>
             <p class = "input" style="position: absolute; top:40%">Weight(KG):
-                <input type="number" name="" id="height">
-                <!-- <input style="left: 50% ; position: absolute; transform: translate(40%, -50%);" type="number" name="" id=""> -->
+                <input type="number" form="bmi" id="height" required>
             </p>
-            <img class="img-bmi" src="bmi-chart.gif" alt="">
+            
+            <img class="img-bmi" src="bmi-chart.gif" style="box-shadow: none;">
+            <input type="submit" class="toggle-calu" form="bmi">
         </fieldset>
     </section>
 
 <script src="script.js"></script>
-<script src="__main__.js"></script>
 </body>
 </html>
